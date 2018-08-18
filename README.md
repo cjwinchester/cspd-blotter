@@ -10,4 +10,4 @@ A simple Django project to scrape and collect [Colorado Springs Police Departmen
 - `pipenv --three install`
 - `pipenv shell`
 - `python manage.py migrate`
-- To run the management command that scrapes the website: `python manage.py scrape` (maybe change the headers to reflect your information first?)
+- To run the management command that scrapes the website: `python manage.py scrape` (maybe [change the headers](https://github.com/cjwinchester/cspd-blotter/blob/master/blotter/management/commands/scrape.py#L15-L19) to reflect your information first?)
